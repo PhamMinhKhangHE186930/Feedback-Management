@@ -1,0 +1,31 @@
+body{
+    font-family: "Arial", Helvetica, sans-serif !important;
+}
+.content{
+    min-height: 700px;
+}
+
+.feedbackres-table{
+    width: 80%;
+}
+
+.span-date{
+    font-weight: 400;
+}
+
+/* suppport home style */
+.progress{
+    width: 70%;
+    height: 20px !important;
+}
+
+.width-progress-bl{
+    width: 70%;
+}
+
+.content-right{
+    border-left: 0.5px solid lightgrey;
+    min-height: 700px;
+}
+
+/* student home style */
