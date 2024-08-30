@@ -1,0 +1,332 @@
+.dashboard{
+    font-size: 50px;
+    font-weight: 600;
+    color: #216ad6;
+}
+
+.navigation-side {
+    background-color: #0e59c8;
+    padding: 0;
+    padding-top: 30px;
+}
+
+.navigation-side h4{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 50px;
+    color: white;
+    transition-duration: 0.6s;
+}
+
+.navigation-side h4:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: #0e59c8;
+}
+
+.navigation-side a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.navigation-side a:hover{
+    background-color: whitesmoke;
+    color: #0e59c8;
+}
+
+.dynamic-paging{
+    display: flex;
+    margin-top: 10px;
+    justify-content: end;
+    margin-right: 50px;
+}
+
+.search-section{
+    height: 250px;
+    width: 350px
+}
+
+/*orange button*/
+.moreinfo-btn{
+    margin-top: 5px;
+    padding: 5px 10px;
+    height: 40px;
+    border: 1px solid #eb7a30;
+    border-radius: 5px;
+    background-color: #ff9814;
+    color: white;
+    text-shadow: 0px -1px 0px #eb7a30;
+    font-weight: 600;
+}
+
+.moreinfo-btn:hover{
+    padding: 5px 10px;
+    height: 40px;
+    border: 1px solid #ff9814;
+    border-radius: 5px;
+    background-color: #eb7a30;
+    color: white;
+    text-shadow: 0px -1px 0px #ff9814;
+    font-weight: 600;
+}
+
+/*orange button*/
+.createresponse-btn{
+    width: 150px;
+    height: 30px;
+    border: 1px solid #eb7a30;
+    border-radius: 5px;
+    background-color: #ff9814;
+    color: white;
+    text-shadow: 0px -1px 0px #eb7a30;
+    font-weight: 600;
+}
+.createresponse-btn:hover{
+    width: 150px;
+    height: 30px;
+    border: 1px solid #ff9814;
+    border-radius: 5px;
+    background-color: #eb7a30;
+    color: white;
+    text-shadow: 0px -1px 0px #ff9814;
+    font-weight: 600;
+}
+
+/*pacific button*/
+.allresponse-btn{
+    margin-top: 2px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #0e59c8;
+    border-radius: 5px;
+    background-color: #216ad6;
+    color: white;
+    text-shadow: 0px -1px 0px #0e59c8;
+    font-weight: 600;
+}
+.allresponse-btn:hover{
+    margin-top: 2px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #216ad6;
+    border-radius: 5px;
+    background-color: #0e59c8;
+    color: white;
+    text-shadow: 0px -1px 0px #216ad6;
+    font-weight: 600;
+}
+/*delete button color red*/
+.delete-btn{
+    margin-top: 2px;
+    width: 150px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #d74b4b;
+    color: white;
+    font-weight: 600;
+}
+.delete-btn:hover{
+    margin-top: 2px;
+    width: 150px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #e60000;
+    color: white;
+    font-weight: 600;
+}
+
+.save-btn{
+    margin-top: 2px;
+    width: 100px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #8dc572;
+    color: white;
+    font-weight: 600;
+}
+.save-btn:hover{
+    margin-top: 2px;
+    width: 100px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #60b338;
+    color: white;
+    font-weight: 600;
+}
+
+.cancel-btn{
+    margin-top: 2px;
+    width: 100px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #9c9c9c;
+    color: white;
+    font-weight: 600;
+}
+.cancel-btn:hover{
+    margin-top: 2px;
+    width: 100px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #8a8989;
+    color: white;
+    font-weight: 600;
+}
+
+/*style for feedback display for supporter content*/
+.fbdisplay-table{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.fbdisplay-table th{
+    background-color: #216ad6;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.fbdisplay-table th, .fbdisplay-table td{
+    border-bottom: 1px solid lightblue;
+}
+
+/*style no*/
+.fbdisplay-table th:first-child, .fbdisplay-table td:first-child{
+    width: 3%;
+    text-align: center;
+}
+
+/*style student name*/
+.fbdisplay-table th:nth-child(2),.fbdisplay-table td:nth-child(2){
+    width: 11%;
+    text-align: center;
+}
+
+/*style type*/
+.fbdisplay-table th:nth-child(3),.fbdisplay-table td:nth-child(3){
+    width: 20%;
+}
+/*style title*/
+.fbdisplay-table th:nth-child(4),.fbdisplay-table td:nth-child(4){
+    width: 13%;
+}
+/*style content*/
+.fbdisplay-table th:nth-child(5),.fbdisplay-table td:nth-child(5){
+    width: 20%;
+}
+/*style date*/
+.fbdisplay-table th:nth-child(6),.fbdisplay-table td:nth-child(6){
+    width: 10%;
+}
+/*style status*/
+.fbdisplay-table th:nth-child(7),.fbdisplay-table td:nth-child(7){
+    width: 8%;
+}
+/*style public*/
+.fbdisplay-table th:nth-child(8),.fbdisplay-table td:nth-child(8){
+    width: 8%;
+    text-align: center;
+}
+/*style action*/
+.fbdisplay-table th:nth-child(9),.fbdisplay-table td:nth-child(9){
+    width: 15%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*style student details feedback*/
+hr{
+    box-shadow: 0px 4px 9px 1px #eb7a30;
+}
+
+.seeRes-btn{
+    display: flex;
+    justify-content: end;
+}
+
+/*style response display table*/
+.rpdisplay-table{
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 1px solid lightblue;
+}
+
+.rpdisplay-table th{
+    background-color: #216ad6;
+    color: #fff;
+    /*padding: 10px 0;*/
+}
+
+.rpdisplay-table tr{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid lightblue;
+}
+/*style no column*/
+.rpdisplay-table th:nth-child(1), .rpdisplay-table td:nth-child(1){
+    width: 3%;
+    text-align: center;
+}
+.rpdisplay-table th:nth-child(3), .rpdisplay-table td:nth-child(3){
+    width: 20%;
+}
+.rpdisplay-table th:nth-child(6), .rpdisplay-table td:nth-child(6){
+    width: 13%;
+}
+.rpdisplay-table th:nth-child(7), .rpdisplay-table td:nth-child(7){
+    width: 13%;
+}
+/*style Action column*/
+.rpdisplay-table th:nth-child(9), .rpdisplay-table td:nth-child(9){
+    width: 10%;
+    text-align: center;
+}
+
+/*style student group table*/
+.stdgroup-table{
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 1px solid lightblue;
+}
+
+.stdgroup-table th{
+    background-color: #216ad6;
+    color: #fff;
+    padding: 10px 0;
+}
+.stdgroup-table tr{
+    border-bottom: 1px solid lightblue;
+}
+
+.stdgroup-table th:nth-child(1), .stdgroup-table td:nth-child(1){
+    width: 5%;
+    text-align: center;
+}
+
+.stdgroup-table th:nth-child(2), .stdgroup-table td:nth-child(2){
+    width: 20%;
+    padding-left: 30px;
+}
+
+.stdgroup-table th:nth-child(3), .stdgroup-table td:nth-child(3){
+    width: 25%;
+    text-align: center;
+}
+
+.stdgroup-table th:nth-child(5), .stdgroup-table td:nth-child(5){
+    text-align: center;
+}
+
+
+
+
